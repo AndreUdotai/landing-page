@@ -1,0 +1,172 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 18px 200px;
+    height: 70vh;
+    gap: 100px;
+}
+
+.headerTabs {
+    display: flex;
+    justify-content: space-between;
+    color: #E5E7EB;
+    align-items: center;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.jumbotron {
+    display: flex;
+}
+
+.jumbotron h1 {
+    color: #F9FAF8;
+    font-size: 32px;
+}
+
+.jumbotron p {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.jumbotron button {
+    color: #E5E7EB;
+    background-color: rgb(46, 105, 243);
+    padding: 8px 32px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+.jumbotron {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jumbotron img {
+    width: 400px;
+}
+
+.jumbotron div {
+    width: 45%;
+}
+
+.members {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.members img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px #1F2937 solid;
+}
+
+.membersHeader h1 {
+    color: #1F2937;
+    text-align: center;
+    font-size: 36px;
+}
+
+.members div {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px 300px;
+    color: #1F2937;
+
+}
+
+.quote p:first-child {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.quote strong {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 17px;
+    text-align: center;
+}
+
+.action {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.actionBox {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 20px 150px;
+    align-items: center;
+}
+
+.actionBox button {
+    padding: 8px 32px;
+    flex: 0 0 auto;
+    border-radius: 10px;
+    background-color: #3882F6;
+    border: solid 2px #F9FAF8;
+    color: #F9FAF8;
+    font-size: 16px;
+}
+
+.actionBox h3 {
+    color: #F9FAF8;
+}
+
+.actionBox p {
+    color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 100px;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
