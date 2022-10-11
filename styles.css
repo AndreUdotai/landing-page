@@ -8,16 +8,19 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.header {
+.dark-bg-color {
     background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
-    padding: 18px 200px;
-    gap: 100px;
+}
+
+.white-text-color {
+    color: #F9FAF8;
+}
+
+.ash-text-color {
+    color: #E5E7EB;
 }
 
 #headerTabs {
-    background-color: #1F2937;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,13 +29,10 @@ body {
 }
 
 .logo {
-    color: #F9FAF8;
     font-size: 24px;
-    /* background-color: red; */
 }
 
 ul {
-    /* background-color: pink; */
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -41,8 +41,15 @@ ul {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
     font-size: 16px;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 18px 200px;
+    gap: 100px;
 }
 
 .jumbotron {
