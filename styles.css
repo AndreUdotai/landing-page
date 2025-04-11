@@ -71,6 +71,11 @@ ul {
     border: none;
     padding: 10px 20px;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+.jumbotron-info > button a {
+    text-decoration: none;
 }
 
 .jumbotron-image {
@@ -213,6 +218,11 @@ ul {
     padding: 5px 20px;
     font-size: 18px;
     flex-shrink: 0;
+    cursor: pointer;
+}
+
+.call-card>button a {
+    text-decoration: none;
 }
 
 /* Footer section */
@@ -225,4 +235,9 @@ ul {
     align-items: center;
     justify-content: center;
     font-size: 18px;
+}
+
+.footer a {
+    margin-left: 5px;
+    margin-right: 5px;
 }
