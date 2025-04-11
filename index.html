@@ -13,61 +13,70 @@
 </head>
 
 <body>
-    <div class="dark-bg-color" id="headerTabs">
-        <!-- <div class="logo white-text-color" id="logo">CodingCircle</div> -->
-        <img src="images/andre-designs-logo.png" alt="Andre Designs Logo">
-        <ul id="tabs">
-            <li><a class="ash-text-color" href="#">Home</a></li>
-            <li><a class="ash-text-color" href="#">Services</a></li>
-            <li><a class="ash-text-color" href="#">Contact</a></li>
-        </ul>
-    </div>
-    <div class="jumbotron dark-bg-color">
-        <div id="jumbotronDescription">
-            <h1 class="white-text-color">Build Your Dream Website with Jane Doe Designs</h1>
-            <p class="ash-text-color">
-                I’m a freelance web developer creating modern, responsive websites tailored to your needs.
-                 Let’s bring your vision to life with clean code and stunning design.
-            </p>
-            <button class="ash-text-color">Get a Free Quote</button>
-        </div>
-        <img src="images/hero-section-image.jpg" title="study room">
-    </div>
-    <div class="membersHeader">
-        <h1>What I Offer</h1>
-    </div>
-    <div class="members">
-        <div>
-            <img src="images/card-1.jpg">
-            <p>Custom Web Development – Unique, responsive websites built from scratch to match your brand.</p>
-        </div>
-        <div>
-            <img src="images/card-2.jpg">
-            <p>E-Commerce Solutions – Sell online with a user-friendly store that drives conversions.</p>
-        </div>
-        <div>
-            <img src="images/card-3.jpg">
-            <p>Website Maintenance – Keep your site fast, secure, and up-to-date with ongoing support.</p>
-        </div>
-        <div>
-            <img src="images/card-4.jpg">
-            <p>SEO Optimization – Get found on Google with search engine-friendly design and content.</p>
-        </div>
-    </div>
-    <div class="quote">
-        <p><em>"Jane transformed my small business with a website that’s both beautiful and functional. 
-            My customers love it, and I’ve seen a huge boost in sales!"</em></p>
-        <p><strong>–Sarah Miller, Owner of Sweet Bloom Bakery</strong></p>
-    </div>
-    <div class="action">
-        <div class="actionBox">
-            <div>
-                <h3>Ready to Start Your Project?</h3>
-                <p>Let’s create a website that grows your business. Contact me today for a free consultation!</p>
+    <div class="hero-section" id="home">
+        <div class="header">
+            <div class="logo">
+                <img src="images/andre-designs-logo.png" alt="Andre Designs Logo" width="80px" height="80px">
             </div>
-            <button>Contact Me Now</button>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="jumbotron">
+            <div class="jumbotron-info">
+                <h1>Build Your Dream Website</h1>
+                <p>
+                    I’m a freelance web developer creating modern, responsive websites tailored to your needs.
+                     Let’s bring your vision to life with clean code and stunning design.
+                </p>
+                <button>Get a Free Quote</button>
+            </div>
+            <img class="jumbotron-image" src="images/hero-section-image.jpg" alt="A laptop showing a beautifully designed websit" width="500px">
         </div>
     </div>
+
+    <div class="info-cards" id="services">
+        <h1>What I Offer</h1>
+        <div class="cards">
+            <div class="card">
+                <img src="images/card-1.jpg">
+                <p>Custom Web Development – Unique, responsive websites built from scratch.</p>
+            </div>
+            <div class="card">
+                <img src="images/card-2.jpg">
+                <p>E-Commerce Solutions – Sell online with a user-friendly store that drives conversions.</p>
+            </div>
+            <div class="card">
+                <img src="images/card-3.jpg">
+                <p>Website Maintenance – Keep your site fast, secure, and up-to-date with ongoing support.</p>
+            </div>
+            <div class="card">
+                <img src="images/card-4.jpg">
+                <p>SEO Optimization – Get found on Google with search engine-friendly design and content.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="testimonial-quote">
+            <p class="quote"><em>"Andre transformed my small business with a website that’s both beautiful and functional. 
+                My customers love it, and I’ve seen a huge boost in sales!"</em></p>
+            <p class="customer"><strong>–Sarah Miller, Owner of Sweet Bloom Bakery</strong></p>
+        </div>
+    </div>
+
+    <div class="call-section" id="contact">
+        <div class="call-card">
+            <div class="call-info">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let’s create a website that grows your business!</p>
+            </div>
+            <button>Contact Me</button>
+        </div>
+    </div>
+
     <div class="footer">
         Copyright © Andre Designs 2025
     </div>
