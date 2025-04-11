@@ -54,7 +54,6 @@ ul {
     max-width: 1000px;
     margin: 0 auto;
     background-color: #1F2937;
-
 }
 
 .jumbotron-info {
@@ -75,11 +74,7 @@ ul {
 }
 
 .jumbotron-image {
-    flex: 1;
-    align-items: flex-end;
-}
-
-.jumbotron-image > img {
+    flex: 1 1 0;
     align-items: flex-end;
 }
 
@@ -98,6 +93,17 @@ ul {
 @media (max-width: 904px) {
     .jumbotron {
         flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 600px) {
+    .jumbotron-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    div#services.info-cards {
+        padding: 0 20px;
     }
 }
 
